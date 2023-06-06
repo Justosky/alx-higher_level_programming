@@ -2,6 +2,6 @@
 def uppercase(str):
     for each_character in str:
         if (ord(each_character) >= 97 and ord(each_character) <= 122):
-            each_character = chr(each_character) - 32
+            each_character = chr(ord(each_character)) - 32
         print("{:s}".format(each_character), end="")
     print("\n", end="")
