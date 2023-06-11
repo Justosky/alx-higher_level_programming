@@ -7,5 +7,3 @@ def max_integer(my_list = []):
         if my_list[count] > largest:
             largest = my_list[count]
     return (largest)
-large = max_integer()
-print(large)
