@@ -3,11 +3,11 @@
 #include "lists.h"
 
 /**
-  * is_palindrome - This function checks if a singly linked list is palindrome or not
-  * @head: A head pointer to the singly linked list.
-  * Return: The function returns 1 if the list is palindrome and otherwise it returns 0.
+  * is_palindrome - Checks if a singly linked list is a palindrome
+  * @head: The head of the singly linked list
+  *
+  * Return: 0 if it is not a palindrome, 1 if it is a palindrome
   */
-
 int is_palindrome(listint_t **head)
 {
     listint_t *start = NULL, *end = NULL;
@@ -33,7 +33,7 @@ int is_palindrome(listint_t **head)
         len_list = len_list - 2;
     }
 
-	return (1);
+    return (1);
 }
 
 /**
@@ -43,7 +43,6 @@ int is_palindrome(listint_t **head)
   *
   * Return: The specific node of the linked list
   */
-
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	listint_t *current = head;
@@ -70,7 +69,6 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
   *
   * Return: Number of elements in the linked list
   */
-
 size_t listint_len(const listint_t *h)
 {
 	int lenght = 0;
