@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
-    def search_replace_elmement(element):
-        return (element if element != search else replace)
-    return list(map(search_replace_element, my_list))
+    def s_r_elm(elm):
+        return (elm if elm != search else replace)
+    return list(map(s_r_elm, my_list))
