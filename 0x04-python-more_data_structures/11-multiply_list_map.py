@@ -5,4 +5,4 @@
 
 
 def multiply_list_map(my_list=[], number=0):
-    return (list(map(lambda _: _ * 4, my_list)))
+    return (list(map(lambda n: n * 4, my_list)))
