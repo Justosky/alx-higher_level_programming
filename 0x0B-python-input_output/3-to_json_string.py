@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 import json
-"""Retrieved the JSON library"""
-
 """The definition of a function that serializes a string into"""
 """JSON string"""
 
