@@ -8,4 +8,4 @@ def append_write(filename="", text=""):
     """Function prototype"""
     with open(filename, 'a', encoding="UTF-8") as file:
         """Creates a file object"""
-        return(file.write(text))
+        return (file.write(text))
