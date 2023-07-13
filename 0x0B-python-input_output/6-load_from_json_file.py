@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-import json
 """A function that reads JSON string from a file"""
-"""and converts it into a python data structure"""
+import json
 
 
 def load_from_json_file(filename):
